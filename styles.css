@@ -12,6 +12,7 @@
 
 /* Light */
 .light {
+  display: flex;
   position: absolute;
   top: -15px;
   left: 50%;
@@ -65,6 +66,7 @@
 
 /* Eyes */
 .eyes {
+	justify-content: space-around;
   position: absolute;
   top: 30px;
   left: 50%;
