@@ -13,6 +13,8 @@
 /* Light */
 .light {
   display: flex;
+  flex-direction: column; /* Arrange elements in a column */
+  align-items: center; /* Center the items horizontally */
   position: absolute;
   top: -15px;
   left: 50%;
