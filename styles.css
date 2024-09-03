@@ -1,1 +1,118 @@
 /*  your css code here. If applicable */
+/* Head */
+.head {
+  width: 150px;
+  height: 150px;
+  margin: 50px;
+  background-color: #a4d9eb;
+  border: 5px solid #9bbcc2;
+  border-radius: 20px;
+  position: relative;
+}
+
+/* Light */
+.light {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bulb {
+  width: 30px;
+  height: 30px;
+  background-color: #ffa500;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.stick {
+  width: 10px;
+  height: 15px;
+  background-color: #808080;
+  position: relative;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+/* Ears */
+.ears {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.ear {
+  width: 10px;
+  height: 50px;
+  background-color: #c90a0a;
+}
+
+.ear:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.ear:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+/* Eyes */
+.eyes {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+}
+
+.eye {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: 5px solid #00b3ff;
+  border-radius: 50%;
+}
+
+/* Nose */
+.nose {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid #c90a0a;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Mouth */
+.mouth {
+  width: 100px;
+  height: 25px;
+  background-color: #dedede;
+  border: 1px solid black;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Teeth */
+.tooth {
+  width: 5px;
+  height: 100%;
+  background-color: black;
+}
